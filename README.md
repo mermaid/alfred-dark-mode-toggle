@@ -2,7 +2,7 @@
 a script and Alfred workflow to toggle/enable/disable dark mode for macOS Mojave
 
 [![Preview of the toggle workflow](assets/workflow.png)
-Download Workflow](https://github.com/mermaid/mojave-darkmode-toggle/raw/master/ToggleDarkMode.alfredworkflow)
+Download Workflow](https://github.com/mermaid/mojave-darkmode-toggle/raw/master/Toggle%20Theme.alfredworkflow)
 
 The Applescript file is an apple script that can be run to toggle/set the theme for macOS Mojave.
 
