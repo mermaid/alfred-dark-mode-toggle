@@ -1,13 +1,18 @@
 function run(args) {
 	args = args ? args : []
 	var systemEvents = Application("System Events")
+	var theme;
 	
-	if (args && args == 'dark')
+	if (args && args == 'dark') {
 		systemEvents.appearancePreferences.darkMode = true
-	else if (args && args == 'light')
+		theme = 'dark'
+	} else if (args && args == 'light') {
 		systemEvents.appearancePreferences.darkMode = false
-	else
+		theme = 'light'
+	} else {
 		systemEvents.appearancePreferences.darkMode = !systemEvents.appearancePreferences.darkMode()
-}
+		theme = systemEvents.appearancePreferences.darkMode() ? 'dark' : 'light'
+	}
 
-run();
+	return theme
+}
