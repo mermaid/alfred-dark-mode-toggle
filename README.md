@@ -2,6 +2,9 @@
 
 An Alfred 4 Workflow that toggles between Light and Dark macOS Appearances.
 
+The default keywork is `toggle`.
+You can also search for `dark`/`light` to switch to that particular theme.
+
 It also has the option to toggle the theme on the following applications:
  - Alfred
  - Sourcetree
