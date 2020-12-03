@@ -9,7 +9,7 @@ It also has the option to toggle the theme on the following applications:
  - Alfred
  - Sourcetree
 
-[![Preview of the toggle workflow](assets/workflow.png)
+![Preview of the toggle workflow](assets/workflow.png)
 [![Preview of the toggle workflow editor](assets/editor.png)
 Download Workflow](https://github.com/mermaid/mojave-darkmode-toggle/raw/master/Toggle%20Theme.alfredworkflow)
 
